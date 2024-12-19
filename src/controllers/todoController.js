@@ -1,5 +1,5 @@
 const { PrismaClient } = require('@prisma/client')
-require('bcrypt');
+
 const prisma = new PrismaClient()
 const getTodos = async (req, res) => {
     try{
